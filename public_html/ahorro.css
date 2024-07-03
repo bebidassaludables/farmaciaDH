@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Poetsen+One&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(45deg, rgb(2, 169, 247), rgb(25, 0, 253));
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #fff;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    margin-left: auto; /* Coloca el logo en la esquina superior derecha */
+}
+
+.logo {
+    width: 50px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+}
+
+
+nav {
+    position: relative;
+    background-color: rgba(51, 51, 51, 0.85);
+    height: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+#menu-btn {
+    background-color: #ff5722;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#menu-btn:hover {
+    background-color: #e64a19;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 20%;
+    background-color: rgba(51, 51, 51, 0.95);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav ul.show {
+    transform: scaleY(1);
+}
+
+nav ul li {
+    border-bottom: 1px solid #444;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+#slogan {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}

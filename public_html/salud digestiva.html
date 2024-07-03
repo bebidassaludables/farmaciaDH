@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacias del Ahorro</title>
+    <meta name="description" content="Farmacias del Ahorro: Encuentra todo tipo de medicinas y productos para tu salud.">
+    <link rel="stylesheet" href="bienestar sexual.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Farmacias del Ahorro</h1>
+            <p>¡Te Queremos Bien!</p>
+        </div>
+        <div class="logo-container">
+            <img src="imagenes/logo.jpg" alt="Logo" class="logo">
+        </div>
+    </header>
+    <nav>
+        <button id="menu-btn">Menú</button>
+        <ul id="menu">
+          <li><a href="inicio ahorro.html">Menú Principal</a></li>
+          <li><a href="bienestar sexual.html">Bienestar Sexual</a></li>
+          <li><a href="salud digestiva.html">Salud Digestiva</a></li>
+          <li><a href="Antibioticos.html">Antibi�ticos</a></li>
+          <li><a href="Dulces.html">Dulces</a></li>
+          <li><a href="BEBIDASSALUDABLES.html">Bebidas Saludables</a></li>
+          <li><a href="vitaminas.html">Vitaminas</a></li>
+          <li><a href="antigripales.html">Antigripales</a></li>
+      </ul>
+      
+    </nav>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="container">
+          <div class="header">
+            <h2>Productos más relevantes sobre<br> SALUD DIGESTIVA</h2>
+          </div>
+          <div class="container_container">
+            <div class="offers">
+              <div class="offer">
+                <img src="floratil.jpg" alt="Floratil">
+                <h3>Floratil</h3>
+                <p>$188.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 1, name: 'Floratil', price: 188.00, image: 'imagenes/refrescos/coca de medio.webp'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="immu-fliu kids.jpg" alt="Immu-Flo Kids">
+                <h3>Immu-Flo Kids</h3>
+                <p>$551.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 2, name: 'Immu-Flo Kids', price: 551.00, image: 'imagenes/refrescos/power.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="immu- flo.jpg" alt="Immu-Flo">
+                <h3>Immu-Flo</h3>
+                <p>$599.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 3, name: 'Immu-Flo', price: 599.00, image: 'imagenes/refrescos/fanta de naranja.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="sinuberase.jpg" alt="Sinuberase">
+                <h3>Sinuberase</h3>
+                <p>$230.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 4, name: 'Sinuberase', price: 230.00, image: 'imagenes/refrescos/sprite de lata.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="QG5.jpg" alt="Q_G5">
+                <h3>Q-G5</h3>
+                <p>$130.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 5, name: 'Q_G5', price: 130.00, image: 'imagenes/productos lacteos/leche nito.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="buscanx.jpg" alt="Buscanx">
+                <h3>Buscansx</h3>
+                <p>$276.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 6, name: 'Buscanx', price: 276.00, image: 'imagenes/productos lacteos/nutri deslactosada.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="nesajar.jpg" alt="Nesajar"><img src="nesajar.jpg" alt="Nesajar">
+                <h3>Nesajar</h3>
+                <p>$326.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 7, name: 'Nesajar', price: 326.00, image: 'imagenes/totopos/totopos del hogar.jpg'})">Agregar al Carrito</button>
+              </div>
+          
+              <div class="offer">
+                <img src="BeneQuer.jpg" alt="BeneQuer">
+                <h3>BeneQuer</h3>
+                <p>$264.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 7, name: 'BeneQuer', price: 264.00, image: 'imagenes/totopos/totopos del hogar.jpg'})">Agregar al Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <script src="ahorro.js"></script>
+</body>
+</html>
+

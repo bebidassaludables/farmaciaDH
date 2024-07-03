@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacias del Ahorro</title>
+    <meta name="description" content="Farmacias del Ahorro: Encuentra todo tipo de medicinas y productos para tu salud.">
+    <link rel="stylesheet" href="bienestar sexual.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Farmacias del Ahorro</h1>
+            <p>�Te Queremos Bien!</p>
+        </div>
+        <div class="logo-container">
+            <img src="imagenes/logo.jpg" alt="Logo" class="logo">
+        </div>
+    </header>
+    <nav>
+        <button id="menu-btn">Men�</button>
+        <ul id="menu">
+          <li><a href="inicio ahorro.html">Menú Principal</a></li>
+          <li><a href="bienestar sexual.html">Bienestar Sexual</a></li>
+          <li><a href="salud digestiva.html">Salud Digestiva</a></li>
+          <li><a href="Antibioticos.html">Antibi�ticos</a></li>
+          <li><a href="Dulces.html">Dulces</a></li>
+          <li><a href="BEBIDASSALUDABLES.html">Bebidas Saludables</a></li>
+          <li><a href="vitaminas.html">Vitaminas</a></li>
+          <li><a href="antigripales.html">Antigripales</a></li>
+      </ul>
+
+    </nav>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="container">
+          <div class="header">
+            <h2>Productos m�s relevantes sobre<br> DULCES</h2>
+          </div>
+          <div class="container_container">
+            <div class="offers">
+              <div class="offer">
+                <img src="picafresa.jpg" alt="Picafresa">
+                <h3>Picafresa</h3>
+                <p>$05.00<span>sin descuento</span></p>
+                <button onclick="addToCart({id: 1, name: 'Picafresa', price: 5.00, image: 'imagenes/refrescos/coca de medio.webp'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="paleta.jpg" alt="Paleta">
+                <h3>Paleta</h3>
+                <p>$08.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 2, name: 'Paleta', price: 8.00, image: 'imagenes/refrescos/power.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="tamarindo.jpg" alt="Tamarindo">
+                <h3>Tamarindo</h3>
+                <p>$25.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 3, name: 'Tamarindo', price: 25.00, image: 'imagenes/refrescos/fanta de naranja.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="chicles.jpg" alt="Chicle">
+                <h3>Chicle</h3>
+                <p>$20.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 4, name: 'Chicle', price: 20.00, image: 'imagenes/refrescos/sprite de lata.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="halls.jpg" alt="Halls">
+                <h3>Halls</h3>
+                <p>$15.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 5, name: 'Halls', price: 15.00, image: 'imagenes/productos lacteos/leche nito.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="mazapan.jpg" alt="Mazapan">
+                <h3>Mazapan</h3>
+                <p>$05.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 6, name: 'Mazapan', price: 5.00, image: 'imagenes/productos lacteos/nutri deslactosada.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="ricaleta.jpg" alt="Ricaleta">
+                <h3>Ricaleta</h3>
+                <p>$10.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 7, name: 'Ricaleta', price: 10.00, image: 'imagenes/totopos/totopos del hogar.jpg'})">Agregar al Carrito</button>
+              </div>
+
+              <div class="offer">
+                <img src="gomitas.jpg" alt="Gomitas">
+                <h3>Gomitas</h3>
+                <p>$25.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 7, name: 'Gomitas', price: 25.00, image: 'imagenes/totopos/totopos del hogar.jpg'})">Agregar al Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <script src="ahorro.js"></script>
+</body>
+</html>
+
+

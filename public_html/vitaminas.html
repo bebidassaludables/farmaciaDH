@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacias del Ahorro</title>
+    <meta name="description" content="Farmacias del Ahorro: Encuentra todo tipo de medicinas y productos para tu salud.">
+    <link rel="stylesheet" href="bienestar sexual.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Farmacias del Ahorro</h1>
+            <p>�Te Queremos Bien!</p>
+        </div>
+        <div class="logo-container">
+            <img src="imagenes/logo.jpg" alt="Logo" class="logo">
+        </div>
+    </header>
+    <nav>
+        <button id="menu-btn">Men�</button>
+        <ul id="menu">
+          <li><a href="inicio ahorro.html">Menú Principal</a></li>
+          <li><a href="bienestar sexual.html">Bienestar Sexual</a></li>
+          <li><a href="salud digestiva.html">Salud Digestiva</a></li>
+          <li><a href="Antibioticos.html">Antibi�ticos</a></li>
+          <li><a href="Dulces.html">Dulces</a></li>
+          <li><a href="BEBIDASSALUDABLES.html">Bebidas Saludables</a></li>
+          <li><a href="vitaminas.html">Vitaminas</a></li>
+          <li><a href="antigripales.html">Antigripales</a></li>
+      </ul>
+
+    </nav>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="container">
+          <div class="header">
+            <h2>Productos m�s relevantes sobre<br> DULCES</h2>
+          </div>
+          <div class="container_container">
+            <div class="offers">
+              <div class="offer">
+                <img src="picafresa.jpg" alt="C blastto">
+                <h3>C blastto</h3>
+                <p>$100.00<span>sin descuento</span></p>
+                <button onclick="addToCart({id: 1, name: 'C blastto', price: 100.00, image: 'imagenes/refrescos/coca de medio.webp'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="paleta.jpg" alt="Restol-A">
+                <h3>Restol-A</h3>
+                <p>$234.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 2, name: 'Restol-A', price: 234.00, image: 'imagenes/refrescos/power.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="tamarindo.jpg" alt="Alca C">
+                <h3>Alca C</h3>
+                <p>$295.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 3, name: 'Alca C', price: 295.00, image: 'imagenes/refrescos/fanta de naranja.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="chicles.jpg" alt="Zinc">
+                <h3>Zinc</h3>
+                <p>$117.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 4, name: 'Zinc', price: 117.00, image: 'imagenes/refrescos/sprite de lata.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="halls.jpg" alt="Zinc+">
+                <h3>Zinc+</h3>
+                <p>$219.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 5, name: 'Zinc+', price: 219.00, image: 'imagenes/productos lacteos/leche nito.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="mazapan.jpg" alt="Essential">
+                <h3>Essential</h3>
+                <p>$190.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 6, name: 'Essential', price: 190.00, image: 'imagenes/productos lacteos/nutri deslactosada.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="ricaleta.jpg" alt="Natural Colon">
+                <h3>Natural Colon</h3>
+                <p>$731.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 7, name: 'Natural Colon', price: 731.00, image: 'imagenes/totopos/totopos del hogar.jpg'})">Agregar al Carrito</button>
+              </div>
+
+              <div class="offer">
+                <img src="gomitas.jpg" alt="Magnecio">
+                <h3>Magnecio</h3>
+                <p>$234.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 7, name: 'Magnecio', price: 234.00, image: 'imagenes/totopos/totopos del hogar.jpg'})">Agregar al Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <script src="ahorro.js"></script>
+</body>
+</html>
+
+

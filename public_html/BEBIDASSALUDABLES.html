@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacias del Ahorro</title>
+    <meta name="description" content="Farmacias del Ahorro: Encuentra todo tipo de medicinas y productos para tu salud.">
+    <link rel="stylesheet" href="bienestar sexual.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Farmacias del Ahorro</h1>
+            <p>�Te Queremos Bien!</p>
+        </div>
+        <div class="logo-container">
+            <img src="imagenes/logo.jpg" alt="Logo" class="logo">
+        </div>
+    </header>
+    <nav>
+        <button id="menu-btn">Men�</button>
+        <ul id="menu">
+          <ul id="menu">
+            <li><a href="inicio ahorro.html">Menú Principal</a></li>
+            <li><a href="bienestar sexual.html">Bienestar Sexual</a></li>
+            <li><a href="salud digestiva.html">Salud Digestiva</a></li>
+            <li><a href="Antibioticos.html">Antibi�ticos</a></li>
+            <li><a href="Dulces.html">Dulces</a></li>
+            <li><a href="BEBIDASSALUDABLES.html">Bebidas Saludables</a></li>
+            <li><a href="vitaminas.html">Vitaminas</a></li>
+            <li><a href="antigripales.html">Antigripales</a></li>
+        </ul>          
+    </nav>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="container">
+          <div class="header">
+            <h2>Productos m�s relevantes sobre<br> DULCES</h2>
+          </div>
+          <div class="container_container">
+            <div class="offers">
+              <div class="offer">
+                <img src="natures heart.jpg" alt="Natures Heat">
+                <h3>Natures Heat</h3>
+                <p>$23.00<span>sin descuento</span></p>
+                <button onclick="addToCart({id: 1, name: 'Natures Heat', price: 23.00, image: 'imagenes/refrescos/coca de medio.webp'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="svelty move plus.jpg" alt="Svelta Move Plus">
+                <h3>Svelta Move Plus</h3>
+                <p>$64.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 2, name: 'Svelta Move Plus', price: 64.00, image: 'imagenes/refrescos/power.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="bragg shot.jpg" alt="Bragg Shot">
+                <h3>Bragg Shot</h3>
+                <p>$87.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 3, name: 'Bragg Shot', price: 87.00, image: 'imagenes/refrescos/fanta de naranja.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="free life nm.jpg" alt="Free Life (Naranja y Mango)">
+                <h3>Free Life (Naranja y Mango)</h3>
+                <p>$25.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 4, name: 'Free Life (Naranja y Mango)', price: 25.00, image: 'imagenes/refrescos/sprite de lata.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="free life  fr.jpg" alt="Free Life (Frutos Rojos)">
+                <h3>Free Life(Frutos Rojos)</h3>
+                <p>$25.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 5, name: 'Free Life (Frutos Rojos)', price: 25.00, image: 'imagenes/productos lacteos/leche nito.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="optimum nutrition gold.jpg" alt="Optimum Nutrition Gold">
+                <h3>Optimum Nutrition Gold</h3>
+                <p>$25.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 6, name: 'Optimum Nutrition Gold', price: 25.00, image: 'imagenes/productos lacteos/nutri deslactosada.jpg'})">Agregar al Carrito</button>
+              </div>
+              <div class="offer">
+                <img src="optimum energy.jpg" alt="Optimum Nutrition Energy">
+                <h3>Optimum Nutrition Energy</h3>
+                <p>$72.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 7, name: 'Optimum Nutrition Energy', price: 72.00, image: 'imagenes/totopos/totopos del hogar.jpg'})">Agregar al Carrito</button>
+              </div>
+
+              <div class="offer">
+                <img src="agua.jpg" alt="Agua">
+                <h3>Agua</h3>
+                <p>$60.00 <span>sin descuento</span></p>
+                <button onclick="addToCart({id: 7, name: 'Agua', price: 60.00, image: 'imagenes/totopos/totopos del hogar.jpg'})">Agregar al Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <script src="ahorro.js"></script>
+</body>
+</html>
+
+
